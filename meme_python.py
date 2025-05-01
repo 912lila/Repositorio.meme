@@ -6,9 +6,9 @@ meme_dict = {
             "CREEPY": "aterrador, siniestro👻",
             "AGGRO": "ponerse agresivo/enojado😡"
             }
-word = input("Escribe una palbra que no entiendas (¡con mayúsculas!):")
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!):")
 
 if word in meme_dict.keys():
     print(meme_dict[word])
 else:
-    print("esa palabra no esta en diccionario pronto lo actualizaremos")
+    print("esa palabra no esta en el diccionario pronto lo actualizaremos")
